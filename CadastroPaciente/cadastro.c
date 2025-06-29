@@ -133,7 +133,7 @@ void cadastrarPaciente(Paciente pacientes[], int *totalPacientes, int *ids)
     char idadeS[10];
 
     printf("--- CADASTRO ---\n");
-    printf("digite o seu nome: ");
+    printf("Digite o seu nome: ");
     fgets(pacientes[i].nome, sizeof(pacientes[i].nome), stdin);
     printf("Digite sua idade: ");
     fgets(idadeS, sizeof(idadeS), stdin);
